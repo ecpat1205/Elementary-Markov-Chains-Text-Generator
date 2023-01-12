@@ -1,7 +1,4 @@
-# NAME CHE BAIHUI
-# MATRIC NO. G2202211L
-
-setwd("D:/mydoc/NTU Analytics MSc/MH6311 Stochastic Processes for Data Science")
+setwd("D:/xxxx")
 
 library(qdapDictionaries)
 
