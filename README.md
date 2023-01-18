@@ -19,3 +19,9 @@ The outputs of simulations of two generators by setting $4$ as the transition or
 The text generated is displayed in Figure 1. The plot of generation time per characters is shown in Figure 2. The total processing and generating time are 5.683 seconds. The failure to generate real words at the end of the text coincides with the jump of generation time when generating a character later than 800th, which means the generator meets with the situation when some states are not in the transition matrix, and it has to randomly produce some characters based on the single-character distribution.
 
 ![short_simple_four_text](/Figures/short_simple_four_text.PNG "Figure 1: Text (Simple generator with 10\% characters)")
+
+<img
+  src="/Figures/short_simple_four_text.PNG"
+  alt="short_simple_four_text"
+  title="Figure 1: Text (Simple generator with 10\% characters)"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
