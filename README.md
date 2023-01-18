@@ -20,8 +20,7 @@ The text generated is displayed in Figure 1. The plot of generation time per cha
 
 ![short_simple_four_text](/Figures/short_simple_four_text.PNG "Figure 1: Text (Simple generator with 10\% characters)")
 
-<img
-  src="/Figures/short_simple_four_text.PNG"
-  alt="short_simple_four_text"
-  title="Figure 1: Text (Simple generator with 10\% characters)"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+![short_simple_four_charpertime](/Figures/short_simple_four_charpertime.png "Figure 2: Time per characters generation(Simple generator with 10\% characters)")
+
+### Simple Generator with 100\% Characters
+The text generated is displayed in Figure 3. The plot of generation time per characters is shown in Figure 4. The total processing and generating time are 0.840 seconds which is faster than that of 10\% characters. When dealing withe the longer text, the situation of failing to find states does not happen when generating a 1200-long text.
