@@ -24,4 +24,4 @@ The text generated is displayed in Figure 1. The plot of generation time per cha
   src="/Figures/short_simple_four_text.PNG"
   alt="short_simple_four_text"
   title="Figure 1: Text (Simple generator with 10\% characters)"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
