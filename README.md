@@ -31,3 +31,9 @@ The text generated is displayed in Figure 3. The plot of generation time per cha
 
 ### Complete Generator with 10\% Characters
 The text generated is displayed in Figure 5. The plot of generation time per characters is shown in Figure 6. The plot of generation time per characters is shown in Figure 7. The total processing and generating time are 1.643 seconds. It can be seen in the plot of generation time per character that there is a small period when the time is much longer than others, which corresponds to generation loops going up to 3 during that moment. The situation can also be observed in the text generated where a combination of letters is not a real word.
+
+![short_complete_four_text](/Figures/short_complete_four_text.PNG "Figure 5: Text (Complete generator with 10\% characters)")
+
+![short_complete_four_charpertime](/Figures/short_complete_four_charpertime.png "Figure 5: Time per characters generation(Complete generator with 10\% characters)")
+
+![short_complete_four_looppertime](/Figures/short_complete_four_looppertime.png "Figure 6: Loops per characters generation(Complete generator with 10\% characters)")
