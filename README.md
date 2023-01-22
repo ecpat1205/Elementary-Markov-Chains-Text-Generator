@@ -34,6 +34,19 @@ The text generated is displayed in Figure 5. The plot of generation time per cha
 
 ![short_complete_four_text](/Figures/short_complete_four_text.PNG "Figure 5: Text (Complete generator with 10\% characters)")
 
-![short_complete_four_charpertime](/Figures/short_complete_four_charpertime.png "Figure 5: Time per characters generation(Complete generator with 10\% characters)")
+![short_complete_four_charpertime](/Figures/short_complete_four_charpertime.png "Figure 6: Time per characters generation(Complete generator with 10\% characters)")
 
-![short_complete_four_looppertime](/Figures/short_complete_four_looppertime.png "Figure 6: Loops per characters generation(Complete generator with 10\% characters)")
+![short_complete_four_looppertime](/Figures/short_complete_four_looppertime.png "Figure 7: Loops per characters generation(Complete generator with 10\% characters)")
+
+### Complete Generator with 100\% Characters
+The text generated is displayed in Figure 8. The plot of generation time per characters is shown in Figure 9. The plot of generation time per characters is shown in Figure 10. The total processing and generating time are 0.824 seconds which is faster than that of the third scenario. The generating time per character series seems normal and there is no loop in the whole generating process.
+
+![full_complete_four_text](/Figures/full_complete_four_text.PNG "Figure 8: Text (Complete generator with 1000\% characters)")
+
+![full_complete_four_charpertime](/Figures/full_complete_four_charpertime.png "Figure 7: Time per characters generation(Complete generator with 100\% characters)")
+
+![{full_complete_four_looppertime](/Figures/{full_complete_four_looppertime.png "Figure 8: Loops per characters generation(Complete generator with 100\% characters)")
+
+## Experiment Results
+
+The experiment results of simple and complete Markov Chain text generators are shown in the following two tables separately. Note that under each condition 30 rounds are conducted to obtain the statistics. The word accuracy is based on the 30 experiments' outcomes. The "Init matrix time" refers to the time of making the initial transition matrix with the default transition order set. Clearly from experiments, given a text with a fixed length, the word accuracy climbs when increasing the transition order. However, given a fixed transition order, the word accuracy does not significantly soar when increasing the number of characters. Given a specific transition order and number of characters, the word accuracy achieved by the more complete generator is generally better than that of the simple generator. From the experiments, greater transition order will make the generator spend more time producing a character. When provided fewer characters with transition order larger than 1, the time per character generation is greater, and the increment when increasing the order is drastic in the complete generator under one-tenth and half of characters. Also, the total generation time is generally greater than that of the simple one, though the word accuracy is better. However, when given the full text, the complete generator can not only keep the word accuracy at a relatively high level, but also spends similar or less time on characters generation and in total than the simple one. Compared with itself in terms of the complete generator, the time per character generation and the total generation time clearly reduces to the nearly lowest level when given the full text. The result is sensible because fewer characters can imply fewer appeared states which makes the complete generator repeatedly reduce the transition order to find appropriate transition matrix for generation, which coincides with the fact that the average loops per character generation are smaller with the same default transition order when the number of characters grows. Under such experiments, with small number of characters the simple generator performs better than the less simple one, but the less simple one performs increasingly better when given more characters and eventually can rise above the simple one.
