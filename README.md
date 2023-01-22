@@ -45,7 +45,7 @@ The text generated is displayed in Figure 8. The plot of generation time per cha
 
 ![full_complete_four_charpertime](/Figures/full_complete_four_charpertime.png "Figure 7: Time per characters generation(Complete generator with 100\% characters)")
 
-![full_complete_four_looppertime](/Figures/{full_complete_four_looppertime.png "Figure 8: Loops per characters generation(Complete generator with 100\% characters)")
+![full_complete_four_looppertime](/Figures/full_complete_four_looppertime.png "Figure 8: Loops per characters generation(Complete generator with 100\% characters)")
 
 ## Experiment Results
 
