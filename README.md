@@ -1,4 +1,4 @@
-# Elementary-Markov-Chains-Text-Generator
+# Elementary Markov Chains Text Generator
 
 ## Markov Chain Text Generator Design
 ### Transition Matrix Design
